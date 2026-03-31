@@ -1,0 +1,737 @@
+ :root {
+     --color_one: #8ED2DF;
+     --color_two: #356A9F;
+     --color_three: #F9CB7A;
+     --color_four: #F39C7F;
+     --color_five: #79C79D;
+     --color_six: #BFD9CC;
+     --color_seven: #D2ECDE;
+     --color_eight: #D0D0D0;
+     --color_nine: #3B3B3B;
+     --color_ten: #ffff;
+
+ }
+
+ .body {
+     background: var(--color_eight);
+
+ }
+
+ .line_border {
+     position: absolute;
+     width: 1529.5px;
+     height: 0px;
+     left: 375px;
+     /* top: 1490.5px; */
+     border: 5px solid #C21E58;
+     transform: rotate(-180deg);
+ }
+
+ .big_circle {
+     position: absolute;
+     left: 4px;
+ }
+
+ .big_circle img {
+     position: relative;
+     width: 132%;
+     height: auto;
+ }
+
+
+
+ .circle_img {
+     position: absolute;
+     right: 46%;
+     top: 2%;
+ }
+
+
+ .small_circle {
+     position: absolute;
+     right: 0%;
+ }
+
+ .small_circle img {
+     position: relative;
+     width: 100%;
+     height: auto;
+ }
+
+ .section_title h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 39px;
+     color: var(--color_nine);
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.Menu_area<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .menu_area {
+     background-color: var(--color_one);
+ }
+
+ .menu_area .navbar-nav .nav-link {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 19px;
+     text-align: center;
+     color: var(--color_nine);
+
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.hero_area<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .hero_area {
+     background: linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 70%)), url(./img/imag3.png);
+     background-size: cover;
+     background-position: center;
+ }
+
+ .social_business_day {
+     margin-top: 8%;
+ }
+
+ .social_business_day h1 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 32px;
+     line-height: 39px;
+     text-transform: uppercase;
+     color: var(--color_ten);
+ }
+
+ .social_business_day p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;
+
+ }
+
+ .social_business_day .btn_primary {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 39px;
+     padding: 10px 30px;
+     text-align: center;
+     color: var(--color_nine);
+     background: var(--color_four);
+     border-radius: 12px;
+
+ }
+
+ .social_business_day .time_counter {
+     background: var(--color_one);
+     padding: 0px 8px;
+     width: 720px;
+     margin-top: 11%;
+     position: absolute;
+     gap: 30px;
+     border-radius: 10px 0px 0px 10px;
+ }
+
+ .time_counter h2 {
+     font-family: 'Inter';
+     margin-bottom: -10px;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 48px;
+     text-align: center;
+     color: #FFFFFF;
+ }
+
+ .time_counter p {
+     font-size: 14px;
+     margin-bottom: 0px;
+ }
+
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+ .about_contant {
+     position: relative;
+     margin: 70px;
+ }
+
+ .about_contant h3 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 39px;
+     color: #3B3B3B;
+     margin-bottom: 30px;
+ }
+
+ .about_contant p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 29px;
+     color: #000000;
+ }
+
+ .btn_about .btn_primary {
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #3B3B3B;
+     background: #79C79D;
+     border-radius: 12px;
+     padding: 5px 27px;
+
+ }
+
+ .about_img img {
+     position: relative;
+     right: -47%;
+     top: 0%;
+     width: 100%;
+     height: auto;
+ }
+
+
+
+
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>contribution_area<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+ .contribution_area {
+     position: relative;
+ }
+
+ .contribution_img {
+     position: relative;
+     display: inline-block;
+ }
+
+ .contribution_1 {
+     position: absolute;
+     top: 40%;
+ }
+
+ .contribution_img img {
+     width: 195px;
+     height: 195px;
+     border-radius: 10px;
+ }
+
+
+
+
+
+
+
+ .text_end {
+     text-align: end;
+     padding-top: 100px;
+ }
+
+ .text_start {
+     text-align: start;
+ }
+
+ /* 🔥 overlay color */
+ .contribution_img::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(59, 59, 59, 0.4);
+     border-radius: 10px;
+ }
+
+ .contribution_area .about_contant p {
+     font-size: 18px;
+     line-height: 22px;
+ }
+
+ .contribution_area .line_border {
+     top: 110%;
+     left: 70px;
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>tickets_time<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+ .tickets_time {
+     position: relative;
+ }
+
+ .tickets_time .circle_img {
+     position: absolute;
+     left: -6%;
+     top: 12%;
+ }
+
+ .tickets_contant {
+     position: relative;
+     margin: 180px 96px;
+ }
+
+ .tickets_contant h3 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 39px;
+     color: #3B3B3B;
+     text-transform: uppercase;
+     border-bottom: 4px solid #3B3B3B;
+     margin-bottom: 30px;
+ }
+
+ .tickets_contant h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     color: #3B3B3B;
+ }
+
+ .tickets_img img {
+     position: absolute;
+     border-radius: 10px;
+ }
+
+ .tickets_time .line_border {
+     top: 103%;
+     left: 70px;
+     z-index: 99;
+ }
+
+ .tickets_time .big_circle {
+     top: 104%;
+     left: -27%;
+     z-index: -9;
+ }
+
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>section_title<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .section_title,
+ .speaker_img,
+ .social_business_day .btn_primary,
+ .featured_speakers {
+     position: relative;
+ }
+
+ .text-overlay {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+     padding: 40px 20px 25px;
+     color: white;
+     border-radius: 10px;
+ }
+
+ .speaker_img {
+     position: relative;
+     border-radius: 10px;
+ }
+
+ .speaker_img img {
+     width: 100%;
+     height: 380px;
+     border-radius: 10px;
+     object-fit: cover;
+     background: #f1f5f9;
+ }
+
+ .name {
+     text-align: center;
+     font-size: 18px;
+     font-weight: 700;
+     margin: 0 0 8px 0;
+     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+ .title {
+     text-align: center;
+     font-size: 15px;
+     opacity: 0.95;
+     margin: 0;
+     line-height: 1.4;
+ }
+
+ .speaker_top {
+     margin-top: 164px;
+ }
+
+
+
+ /* .featured_speakers .line_border {
+     top: 80%;
+
+ } */
+
+ .featured_speakers .small_circle img {
+     position: relative;
+     width: 100%;
+     height: auto;
+     margin-top: -38%;
+     z-index: -9;
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. celebrating_section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .celebrating_contant h3 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 32px;
+     line-height: 39px;
+     color: #3B3B3B;
+ }
+
+ .celebrating_contant .subtitle {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 19px;
+     color: #000000;
+ }
+
+ .celebrating_contant h4 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     color: #3B3B3B;
+ }
+
+ .celebrating_contant p {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+     color: #000000;
+
+ }
+
+ .celebrating_section img {
+     border-radius: 10px;
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>list_planned_event<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+ .list_planned_event .big_circle {
+     z-index: -9;
+ }
+
+ .list_planned_event .big_circle img {
+     position: relative;
+     height: 1646px;
+     width: 1901px;
+
+ }
+
+ .list_planned_event .card_1 {
+     background: #79C79D;
+     border-radius: 10px;
+ }
+
+ .list_planned_event .card_2 {
+     background: #F39C7F;
+     border-radius: 10px;
+ }
+
+ .list_planned_event .card_3 {
+     background: #F9CB7A;
+     border-radius: 10px;
+ }
+
+ .list_planned_event .text_card {
+     padding: 70px;
+ }
+
+ .list_planned_event .text_card h2 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 50px;
+     line-height: 61px;
+     text-align: center;
+     color: #FFFFFF;
+ }
+
+ .list_planned_event .text_card p {
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 39px;
+     text-align: center;
+     color: #3B3B3B;
+
+
+ }
+
+ .list_planned_event .circle_img {
+     position: absolute;
+     right: 66%;
+     top: 70%;
+     z-index: -9;
+ }
+
+ .list_planned_event .line_border {
+     position: absolute;
+     margin-top: 3%;
+ }
+
+
+
+
+
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>exchange_ideas<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .exchange_containt {
+     text-align: center;
+ }
+
+ .exchange_containt h3 {
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #3B3B3B;
+ }
+
+ .exchange_img {
+     position: relative;
+     display: inline-block;
+ }
+
+ .exchange_img img {
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+     display: block;
+ }
+
+ /* overlay */
+ .exchange_img::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(59, 59, 59, 0.4);
+     border-radius: 10px;
+ }
+
+ .exchange_btn .btn {
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     background: #79C79D;
+     border-radius: 12px;
+     padding: 10px 30px;
+
+ }
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.Footer area<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .footer_area {
+     background-color: #8ED2DF;
+ }
+
+ .footer_contant h3 {
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 21px;
+     line-height: 25px;
+     color: #3B3B3B;
+ }
+
+
+
+
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>...Mobile section... <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+ @media (max-width: 576px) {
+     .contribution_area .line_border {
+         top: 99%;
+         left: -11px;
+         right: -12px;
+         width: stretch;
+         position: absolute;
+     }
+
+
+     .line_border {
+         position: absolute;
+         width: stretch;
+         height: 0px;
+         left: 0;
+         border: 5px solid #C21E58;
+         transform: rotate(-180deg);
+     }
+
+     .about_img img {
+         right: 0%;
+     }
+
+     .big_circle img {
+         position: relative;
+         width: 377px;
+         height: 1497px;
+         margin-top: 93px;
+     }
+
+     .about_contant {
+         position: relative;
+         margin: 27px;
+         text-align: center;
+     }
+
+     .text_end {
+         text-align: center;
+         padding-top: 0px;
+     }
+
+     .text_start {
+         text-align: center;
+     }
+
+     .contribution_1 {
+         position: relative;
+         top: 0%;
+     }
+
+     .tickets_time .btn {
+         position: relative;
+         margin-top: 100%;
+
+     }
+
+
+     .tickets_time .circle_img {
+         position: absolute;
+         left: -121%;
+         top: -73%;
+         z-index: -99;
+     }
+
+     .tickets_time .line_border {
+         top: 103%;
+         left: 0;
+     }
+
+
+
+
+     .list_planned_event .big_circle img {
+         position: relative;
+         height: 1646px;
+         width: 100px;
+     }
+
+
+     .tickets_time .big_circle {
+         top: -31%;
+         left: -3%;
+         z-index: -9;
+     }
+
+     .speaker_top {
+         margin-top: 0px;
+     }
+
+     .list_planned_event .circle_img {
+         position: absolute;
+         right: 1%;
+         top: 55%;
+         z-index: -9;
+         /* height: 1530px; */
+     }
+
+     .featured_speakers .small_circle {
+         position: absolute;
+         right: 0%;
+         top: 0%;
+     }
+
+     .list_planned_event .big_circle img {
+         position: relative;
+         height: 2975px;
+         width: 100%;
+     }
+
+     .circle_img {
+         position: absolute;
+         right: -2%;
+         top: 13%;
+     }
+
+     .tickets_contant {
+         position: relative;
+         margin: 0px;
+     }
+
+     /* menu  */
+     .hero_area img {
+         width: 100px;
+     }
+
+     .social_business_day {
+         text-align: center;
+     }
+
+     .mobile_text {
+         margin-bottom: 125px !important;
+     }
+
+     /* hero  */
+     .social_business_day .time_counter {
+         background: var(--color_one);
+         padding: 0px -16px !important;
+         width: -webkit-fill-available;
+         margin-top: -15%;
+         position: absolute;
+         gap: 0px !important;
+         margin-left: -12px;
+         border-radius: 0px;
+     }
+ }
