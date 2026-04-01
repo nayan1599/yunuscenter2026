@@ -285,6 +285,34 @@
      margin: 180px 96px;
  }
 
+
+
+ .tickets_img {
+     position: relative;
+     display: inline-block;
+ }
+
+ .tickets_img img {
+     width: auto;
+     display: block;
+     border-radius: 10px;
+ }
+
+ /* overlay */
+ .tickets_img::before {
+     content: "";
+     position: absolute;
+     top: 47px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(59, 59, 59, 0.4);
+     border-radius: 10px;
+ }
+
+
+
+
  .tickets_contant h3 {
      font-family: 'Inter';
      font-style: normal;
@@ -306,10 +334,10 @@
      color: #3B3B3B;
  }
 
- .tickets_img img {
+ /* .tickets_img img {
      position: absolute;
      border-radius: 10px;
- }
+ } */
 
  .tickets_time .line_border {
      top: 103%;
@@ -350,7 +378,7 @@
 
  .speaker_img img {
      width: 100%;
-     height: 380px;
+     height: 306px;
      border-radius: 10px;
      object-fit: cover;
      background: #f1f5f9;
@@ -462,7 +490,9 @@
  }
 
  .list_planned_event .text_card {
-     padding: 70px;
+     padding: 89px 1px;
+     height: 306px;
+     width: 100%;
  }
 
  .list_planned_event .text_card h2 {
@@ -527,8 +557,8 @@
  }
 
  .exchange_img img {
-     width: 100%;
-     height: auto;
+     width: auto;
+     height: 385px;
      border-radius: 10px;
      display: block;
  }
@@ -577,7 +607,10 @@
  }
 
 
-
+ .footer_contant i {
+     color: #3B3B3B;
+     font-size: 36px;
+ }
 
 
  /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -730,7 +763,7 @@
          width: -webkit-fill-available;
          margin-top: -15%;
          position: absolute;
-         gap: 0px !important;
+      
          margin-left: -12px;
          border-radius: 0px;
      }
